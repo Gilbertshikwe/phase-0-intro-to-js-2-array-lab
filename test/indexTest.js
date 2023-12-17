@@ -12,6 +12,7 @@ describe('index.js', function () {
       cats.push('Milo', 'Otis', 'Garfield');
     });
 
+
     describe('destructivelyAppendCat(name)', function () {
       it('appends a cat to the end of the cats array', function () {
         destructivelyAppendCat('Ralph');
